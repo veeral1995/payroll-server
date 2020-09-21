@@ -25,7 +25,7 @@ require('./routes/authRoutes')(app);
 
 app.get('/', (req,res) => {
     res.send({
-        'hi': 'Hello Buddy'
+        'hi': 'Hello Buddy - TEST 123'
     })
 })
 
